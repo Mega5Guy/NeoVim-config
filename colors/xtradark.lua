@@ -13,7 +13,7 @@ local set = vim.api.nvim_set_hl
 --UI
 set(0, "Normal", {
   fg = "#F4F4F4", --Primary color
-  bg = "#070708", --regular ln bg,
+  bg = "#0A0A0B", --regular ln bg,
 })
 
 set(0, "LineNr", { fg = "#515151" }) --Secondary color
