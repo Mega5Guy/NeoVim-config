@@ -1,10 +1,8 @@
 return {
   {
     "saghen/blink.cmp",
-    opts = {
-      sources = {
-        default = { "lsp", "path", "buffer" },
-      },
-    },
+    opts = function(_, opts)
+      opts.sources.default = { "lsp" }
+    end,
   },
 }
